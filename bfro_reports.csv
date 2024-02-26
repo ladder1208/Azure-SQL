@@ -1,5 +1,4 @@
 Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
-1,2010,Summer,Alabama,Winston County,Class B,Unknown,61.5,-142.9
 2,1990,Fall,Alaska,Valdez-Chitina-Whittier County,Class A,Unknown,55.1872,-132.7982
 3,1974,Fall,Rhode Island,Washington County,Class A,September,55.2035,-132.8202
 4,1972,Summer,Pennsylvania,York County,Class B,Unknown,62.9375,-141.5667
@@ -35,7 +34,6 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 34,1975,Summer,Pennsylvania,York County,Class B,Unknown,34.27607,-86.17524
 35,1978,Summer,Rhode Island,Washington County,Class A,Unknown,33.59,-86.5
 36,2006,Fall,Rhode Island,Washington County,Class B,October,32.184,-86.581
-37,2013,Winter,Alabama,Winston County,Class A,December,33.36305,-86.17122
 38,2004,Spring,Montana,Sanders County,Class A,March,34.71139,-86.6575
 39,1979,Winter,Montana,Richland County,Class A,Unknown,30.7113,-87.91833
 40,1991,Fall,Montana,Ravalli County,Class A,September,32.76967,-86.4891
@@ -66,7 +64,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 65,2010,Fall,Montana,Lewis And Clark County,Class A,September,34.55056,-92.34083
 66,2015,Spring,Montana,Lewis And Clark County,Class A,May,36.19444,-92.38222
 67,2012,Winter,Montana,Meagher County,Class B,December,36.33528,-92.385
-68,2020,Spring,Montana,Mineral County,Class A,April,34.08,-93.0
+68,2020,Spring,Montana,Mineral County,Class A,April,34.08,-93
 69,1989,Summer,Montana,Missoula County,Class C,July,34.25,-93.1
 70,2004,Summer,Montana,Missoula County,Class A,July,33.76986,-94.3643
 71,2005,Winter,Montana,Missoula County,Class B,January,34.787,-91.735
@@ -143,7 +141,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 142,2013,Winter,North Carolina,Randolph County,Class B,January,35.241,-111.8634
 143,1983,Spring,North Carolina,Henderson County,Class A,April,34.1,-110.165
 144,2003,Fall,North Carolina,Haywood County,Class B,October,34.55154,-112.5421
-145,1968,Fall,North Carolina,Greene County,Class B,Unknown,34.0,-110.0
+145,1968,Fall,North Carolina,Greene County,Class B,Unknown,34,-110
 146,2009,Summer,North Carolina,Duplin County,Class A,July,32.95,-112.73
 147,1977,Summer,North Carolina,Davie County,Class A,August,34.285,-110.11
 148,1997,Fall,North Carolina,Davidson County,Class B,Unknown,35.175,-109.25
@@ -193,12 +191,12 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 192,2006,Fall,Nebraska,Dawes County,Class B,October,37.5703,-118.972
 193,2003,Summer,New Hampshire,Grafton County,Class B,July,38.72139,-120.5836
 194,1930,Unknown,New Hampshire,Coos County,Class B,Unknown,39.205,-121.58
-195,2003,Summer,New Hampshire,Cheshire County,Class B,July,40.465,-124.0
+195,2003,Summer,New Hampshire,Cheshire County,Class B,July,40.465,-124
 196,2008,Summer,New Hampshire,Belknap County,Class A,Unknown,37.23389,-119.2119
 197,1977,Summer,New Jersey,Somerset County,Class A,Unknown,36.0438,-118.7402
 198,1975,Spring,New Jersey,Salem County,Class B,June,39.31917,-120.3275
 199,1979,Summer,New Jersey,Passaic County,Class B,Unknown,38.0312,-120.2434
-200,2003,Spring,New Jersey,Morris County,Class B,April,37.0,-121.7
+200,2003,Spring,New Jersey,Morris County,Class B,April,37,-121.7
 201,1981,Fall,New Jersey,Monmouth County,Class A,September,40.75,-122.1667
 202,2000,Summer,New Jersey,Middlesex County,Class B,July,40.85,-123.55
 203,1977,Spring,New Jersey,Mercer County,Class A,Unknown,38.90333,-120.6033
@@ -224,7 +222,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 223,2018,Spring,New Jersey,Ocean County,Class B,April,34.6167,-118.4333
 224,2004,Fall,New Jersey,Passaic County,Class A,Unknown,41.28996,-123.056
 225,2000,Summer,New Jersey,Passaic County,Class B,August,39.83929,-123.2393
-226,2012,Winter,New Jersey,Salem County,Class A,December,37.9333,-119.0
+226,2012,Winter,New Jersey,Salem County,Class A,December,37.9333,-119
 227,2008,Summer,New Jersey,Somerset County,Class A,July,39.51489,-123.3899
 228,1977,Fall,New Jersey,Sussex County,Class B,December,38.33115,-119.7853
 229,1977,Summer,New Jersey,Sussex County,Class A,July,34.625,-119.2916
@@ -240,7 +238,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 239,1998,Fall,New Jersey,Sussex County,Class B,October,34.76666,-118.5834
 240,2014,Summer,New Jersey,Sussex County,Class B,August,41.65925,-123.4498
 241,2014,Fall,New Hampshire,Coos County,Class B,September,35.665,-120.55
-242,2001,Winter,New Hampshire,Grafton County,Class B,March,38.25,-121.0
+242,2001,Winter,New Hampshire,Grafton County,Class B,March,38.25,-121
 243,2016,Spring,New Hampshire,Hillsborough County,Class B,May,41.845,-122.575
 244,2015,Spring,New Hampshire,Hillsborough County,Class B,Unknown,38.51665,-119.6234
 245,1970,Fall,New Hampshire,Merrimack County,Class B,October,34.28665,-117.3395
@@ -531,7 +529,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 530,2009,Summer,Ohio,Portage County,Class B,June,27.00061,-82.39019
 531,2010,Winter,Ohio,Portage County,Class B,December,27.01091,-80.10344
 532,2011,Summer,Ohio,Portage County,Class B,August,33.26885,-85.12705
-533,1978,Fall,Ohio,Preble County,Class B,September,34.0,-85.0
+533,1978,Fall,Ohio,Preble County,Class B,September,34,-85
 534,2012,Fall,Ohio,Preble County,Class B,November,34.28745,-84.59345
 535,2014,Spring,Ohio,Preble County,Class B,June,33.3646,-82.24471
 536,2014,Summer,Ohio,Preble County,Class B,July,34.6423,-83.4192
@@ -959,7 +957,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 958,2005,Summer,Oregon,Umatilla County,Class B,July,44.525,-85.075
 959,2012,Winter,Oregon,Umatilla County,Class B,November,45.87165,-87.02158
 960,2020,Summer,Oregon,Umatilla County,Class B,August,44.22671,-86.10172
-961,2002,Summer,Oregon,Deschutes County,Class B,Unknown,45.0,-85.0
+961,2002,Summer,Oregon,Deschutes County,Class B,Unknown,45,-85
 962,1969,Summer,Oregon,Curry County,Class B,August,46.60424,-87.46171
 963,1989,Fall,Oregon,Crook County,Class B,November,46.19183,-86.21193
 964,1949,Fall,Oregon,Coos County,Class A,Unknown,41.871,-84.2995
@@ -982,7 +980,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 981,2014,Winter,Pennsylvania,Wayne County,Class B,January,46.50385,-95.11484
 982,1967,Summer,Pennsylvania,Westmoreland County,Class A,September,47.43842,-94.98708
 983,1971,Summer,Pennsylvania,Westmoreland County,Class A,Unknown,47.52522,-93.25262
-984,1996,Fall,Pennsylvania,Westmoreland County,Class A,October,47.5,-93.0
+984,1996,Fall,Pennsylvania,Westmoreland County,Class A,October,47.5,-93
 985,2014,Winter,Pennsylvania,Westmoreland County,Class B,February,47.4284,-92.01759
 986,1995,Fall,Oregon,Baker County,Class B,November,45.8,-94.27725
 987,1996,Summer,Oregon,Baker County,Class A,May,47.83334,-92.92708
@@ -1166,7 +1164,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 1165,2004,Summer,Alaska,Southeast Fairbanks County,Class A,June,40.9934,-74.3249
 1166,1995,Spring,Alaska,Prince of Wales County,Class A,Unknown,39.7962,-74.3749
 1167,1992,Fall,Alaska,Matanuska-Susitna County,Class A,Unknown,39.60835,-74.43445
-1168,1980,Fall,Alaska,Kenai-Cook Inlet County,Class B,November,40.16471,-3706646.0
+1168,1980,Fall,Alaska,Kenai-Cook Inlet County,Class B,November,40.16471,-370.6646
 1169,1964,Fall,Alaska,Fairbanks County,Class A,September,41.14652,-74.59959
 1170,2000,Summer,Alaska,Cordova-McCarthy County,Class A,June,40.8192,-74.85561
 1171,2004,Summer,Alaska,Bristol Bay County,Class B,July,40.18478,-74.72261
@@ -1509,7 +1507,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 1508,2019,Summer,Michigan,Mason County,Class B,June,45.8417,-121.7084
 1509,2010,Spring,Michigan,Mecosta County,Class B,May,44.40946,-122.1322
 1510,2013,Fall,Michigan,Mecosta County,Class A,October,43.48257,-121.9104
-1511,2013,Summer,Michigan,Menominee County,Class B,July,43.0,-124.43
+1511,2013,Summer,Michigan,Menominee County,Class B,July,43,-124.43
 1512,2021,Winter,Michigan,Menominee County,Class B,January,45.43806,-118.0883
 1513,1972,Fall,Michigan,Midland County,Class A,November,45.85606,-123.1691
 1514,1977,Fall,Michigan,Midland County,Class A,September,45.54478,-121.5449
@@ -1585,7 +1583,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 1584,2003,Fall,Michigan,Arenac County,Class A,November,36.5802,-86.5104
 1585,1980,Summer,Michigan,Alpena County,Class B,June,36.19746,-84.66167
 1586,2007,Summer,Michigan,Allegan County,Class B,June,36.25466,-86.15759
-1587,1944,Summer,Michigan,Alger County,Class B,July,35.5506,-4319942.0
+1587,1944,Summer,Michigan,Alger County,Class B,July,35.5506,-43.19942
 1588,2007,Summer,Michigan,Alger County,Class B,June,35.97231,-84.88466
 1589,1998,Fall,Michigan,Alpena County,Class B,September,35.30146,-85.07263
 1590,2011,Summer,Michigan,Alpena County,Class B,July,36.15588,-82.38587
@@ -1594,7 +1592,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 1593,1998,Summer,Michigan,Baraga County,Class B,August,36.02328,-89.17284
 1594,1980,Spring,Michigan,Benzie County,Class A,Unknown,35.22149,-87.39061
 1595,1998,Summer,Michigan,Benzie County,Class A,August,32.7,-98.03333
-1596,1998,Fall,Michigan,Benzie County,Class B,September,36.0,-100.5
+1596,1998,Fall,Michigan,Benzie County,Class B,September,36,-100.5
 1597,2010,Summer,Michigan,Benzie County,Class B,August,32.13972,-95.32
 1598,1993,Winter,Michigan,Berrien County,Class B,February,31.30853,-94.76362
 1599,2012,Summer,Michigan,Berrien County,Class B,June,32.15,-97.5
@@ -1728,7 +1726,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 1727,2011,Summer,Minnesota,Cass County,Class B,August,40.5,-109.9
 1728,1976,Summer,Missouri,St. Charles County,Class A,August,38.225,-112.35
 1729,2006,Summer,Missouri,Shannon County,Class B,June,41.43135,-111.4988
-1730,1969,Summer,Missouri,Scott County,Class A,Unknown,38.0,-112.5
+1730,1969,Summer,Missouri,Scott County,Class A,Unknown,38,-112.5
 1731,1983,Fall,Missouri,Ripley County,Class A,October,40.0445,-111.5447
 1732,2014,Summer,Missouri,Reynolds County,Class A,July,41.5343,-111.5281
 1733,2012,Fall,Missouri,Ray County,Class A,October,40.92128,-111.0837
@@ -2066,7 +2064,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2065,2005,Summer,Texas,San Jacinto County,Class B,May,37.9937,-80.3616
 2066,1997,Fall,Texas,San Jacinto County,Class A,November,37.445,-80.17
 2067,2009,Summer,Texas,San Jacinto County,Class B,June,37.2875,-81.68124
-2068,1963,Fall,Texas,Smith County,Class A,October,39.20278,-79625.0
+2068,1963,Fall,Texas,Smith County,Class A,October,39.20278,-79.625
 2069,2001,Summer,Texas,Smith County,Class A,June,39.10023,-79.4593
 2070,2004,Winter,Texas,Smith County,Class B,January,38.16391,-82.28279
 2071,2011,Spring,Texas,Smith County,Class B,March,37.9208,-80.71875
@@ -2161,7 +2159,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2160,2015,Summer,Texas,Jack County,Class B,July,34.33335,-110.9583
 2161,2016,Summer,Texas,Jack County,Class A,July,36.28,-109.14
 2162,2016,Summer,Texas,Jack County,Class B,July,34.7,-112.05
-2163,2000,Fall,Texas,Jackson County,Class A,September,36.4,-112.0
+2163,2000,Fall,Texas,Jackson County,Class A,September,36.4,-112
 2164,2003,Winter,Texas,Jasper County,Class A,January,34.475,-111.08
 2165,2005,Spring,Texas,Jasper County,Class B,April,35.09,-111.7
 2166,2005,Summer,Texas,Jasper County,Class B,August,36.74,-112.19
@@ -2319,7 +2317,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2318,2012,Spring,Virginia,Rockingham County,Class B,March,37.28675,-118.8741
 2319,2013,Summer,Virginia,Rockingham County,Class B,August,38.20835,-120.0416
 2320,2014,Summer,Virginia,Rockingham County,Class B,August,36.1999,-118.1666
-2321,2007,Spring,Virginia,Scott County,Class B,April,37.5999,-119.0
+2321,2007,Spring,Virginia,Scott County,Class B,April,37.5999,-119
 2322,1985,Summer,Virginia,Shenandoah County,Class B,August,37.90613,-119.2481
 2323,2002,Winter,Virginia,Shenandoah County,Class A,February,38.80435,-120.0825
 2324,2014,Spring,Virginia,Shenandoah County,Class A,April,37.15889,-118.3743
@@ -2800,7 +2798,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2799,1987,Fall,Washington,Ferry County,Class B,October,37.61095,-88.9319
 2800,2013,Fall,Washington,Ferry County,Class A,September,40.1527,-87.7424
 2801,2015,Summer,Washington,Ferry County,Class B,August,37.72735,-88.9487
-2802,2016,Spring,Washington,Ferry County,Class B,May,39.0,-89.0
+2802,2016,Spring,Washington,Ferry County,Class B,May,39,-89
 2803,1972,Summer,Washington,Grays Harbor County,Class A,August,38.0985,-89.4205
 2804,1978,Summer,Washington,Grays Harbor County,Class A,June,37.78048,-89.45728
 2805,1982,Spring,Washington,Grays Harbor County,Class A,June,37.52127,-88.65912
@@ -2825,7 +2823,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2824,2006,Fall,Washington,Grays Harbor County,Class B,October,40.8365,-89.599
 2825,2008,Spring,Washington,Grays Harbor County,Class B,March,41.63243,-87.76622
 2826,2008,Spring,Washington,Grays Harbor County,Class A,April,39.02775,-90.4049
-2827,2008,Spring,Washington,Grays Harbor County,Class B,May,40.0,-90.0
+2827,2008,Spring,Washington,Grays Harbor County,Class B,May,40,-90
 2828,2008,Summer,Washington,Grays Harbor County,Class B,July,38.9241,-89.53419
 2829,2008,Summer,Washington,Grays Harbor County,Class A,July,38.74784,-90.14547
 2830,2009,Summer,Washington,Grays Harbor County,Class B,July,39.62,-89.6845
@@ -2977,7 +2975,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 2976,2004,Winter,Wisconsin,Price County,Class B,December,42.64809,-72.91994
 2977,2008,Summer,Wisconsin,Price County,Class A,July,42.34607,-73.16418
 2978,2013,Summer,Wisconsin,Price County,Class A,July,41.85164,-70.95207
-2979,2018,Summer,Wisconsin,Price County,Class B,June,42.34607,-36588780.0
+2979,2018,Summer,Wisconsin,Price County,Class B,June,42.34607,-365.8878
 2980,2018,Spring,Wisconsin,Sawyer County,Class B,May,42.08354,-73.47686
 2981,2019,Summer,Wisconsin,Sawyer County,Class B,June,42.63678,-73.16617
 2982,2005,Winter,Wisconsin,Jackson County,Class A,January,42.08363,-71.83971
@@ -3138,7 +3136,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3137,1970,Spring,Louisiana,Jefferson Parish,Class A,May,37.2306,-91.30804
 3138,1978,Unknown,Louisiana,Grant Parish,Class B,Unknown,38.40685,-90.7
 3139,1980,Summer,Louisiana,Franklin Parish,Class A,Unknown,38.01223,-91.64719
-3140,1980,Fall,Louisiana,Franklin Parish,Class A,October,39.80751,-94868400.0
+3140,1980,Fall,Louisiana,Franklin Parish,Class A,October,39.80751,-94.8684
 3141,1996,Winter,Louisiana,Grant Parish,Class A,December,37.19201,-93.73122
 3142,2010,Winter,Louisiana,Grant Parish,Class B,February,36.3881,-93.1073
 3143,2017,Winter,Louisiana,Grant Parish,Class B,January,36.7279,-93.6383
@@ -3406,7 +3404,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3405,2000,Summer,Arizona,Gila County,Class B,June,38.69322,-83.12891
 3406,2006,Winter,Arizona,Gila County,Class A,November,39.59947,-82.63536
 3407,1979,Summer,Arizona,Graham County,Class B,June,41.16984,-81.64181
-3408,1997,Summer,Arizona,Graham County,Class B,June,41.00418,-40544270.0
+3408,1997,Summer,Arizona,Graham County,Class B,June,41.00418,-40.54427
 3409,1995,Fall,Arizona,Graham County,Class B,September,40.90177,-81.26729
 3410,2007,Winter,Arizona,Graham County,Class A,January,41.81429,-80.84143
 3411,2008,Fall,Arizona,Graham County,Class B,September,39.11929,-83.40022
@@ -3456,7 +3454,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3455,2003,Spring,California,San Bernardino County,Class B,May,38.88059,-82.43382
 3456,1963,Summer,California,San Bernardino County,Class B,August,40.10084,-81.14331
 3457,1976,Summer,California,San Bernardino County,Class A,June,39.42606,-84.10463
-3458,2008,Summer,California,San Bernardino County,Class B,August,40.07849,-40757860.0
+3458,2008,Summer,California,San Bernardino County,Class B,August,40.07849,-40.75786
 3459,2009,Summer,California,San Bernardino County,Class B,July,40.01452,-81.34529
 3460,2008,Summer,California,San Bernardino County,Class B,August,40.81139,-82.26806
 3461,2014,Summer,California,San Bernardino County,Class A,August,40.91197,-80.70913
@@ -3479,7 +3477,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3478,1979,Summer,California,Shasta County,Class B,July,34.73966,-94.7264
 3479,1984,Summer,California,Shasta County,Class B,August,34.74338,-94.7297
 3480,1986,Summer,California,Shasta County,Class A,June,34.49108,-94.49968
-3481,1986,Fall,California,Shasta County,Class B,September,35.0,-99.0
+3481,1986,Fall,California,Shasta County,Class B,September,35,-99
 3482,1987,Fall,California,Shasta County,Class A,October,34.6021,-95.11875
 3483,2019,Summer,California,Shasta County,Class B,June,35.08344,-98.24586
 3484,1990,Summer,California,Shasta County,Class B,Unknown,34.8146,-94.66875
@@ -3709,7 +3707,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3708,1982,Summer,California,Mendocino County,Class A,July,30.43444,-93.89
 3709,1985,Summer,California,Mendocino County,Class B,July,30.71139,-94.58
 3710,1987,Summer,California,Mendocino County,Class A,Unknown,30.66986,-94.66653
-3711,1979,Summer,California,Mendocino County,Class B,September,29.0,-95.5
+3711,1979,Summer,California,Mendocino County,Class B,September,29,-95.5
 3712,2005,Winter,California,Mendocino County,Class B,January,30.46,-95.13
 3713,2004,Spring,California,Mendocino County,Class B,May,30.33778,-93.97194
 3714,2006,Fall,California,Mendocino County,Class B,September,30.14378,-95.47556
@@ -3728,7 +3726,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3727,1995,Summer,California,Mono County,Class B,Unknown,33.05685,-94.52925
 3728,1991,Spring,California,Mono County,Class A,May,32.475,-97.815
 3729,2008,Fall,California,Mono County,Class B,September,32.84,-97.445
-3730,2007,Fall,California,Mono County,Class B,October,32.755,-98.0
+3730,2007,Fall,California,Mono County,Class B,October,32.755,-98
 3731,2010,Summer,California,Mono County,Class B,June,29.30877,-97.47971
 3732,2015,Fall,California,Mono County,Class B,September,30.7114,-94.04529
 3733,2020,Summer,California,Mono County,Class B,July,29.79893,-98.15556
@@ -3758,7 +3756,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3757,1998,Spring,California,Plumas County,Class B,June,39.64175,-111.2186
 3758,1998,Fall,California,Plumas County,Class B,October,40.25622,-111.6068
 3759,2009,Fall,California,El Dorado County,Class B,August,40.42,-111.63
-3760,2000,Spring,California,Contra Costa County,Class B,February,40.65,-110.0
+3760,2000,Spring,California,Contra Costa County,Class B,February,40.65,-110
 3761,1968,Fall,California,Calaveras County,Class B,Unknown,40.9,-109.75
 3762,1980,Spring,California,Butte County,Class A,August,39.48,-111.23
 3763,2010,Fall,California,Amador County,Class A,October,40.9,-111.625
@@ -3994,7 +3992,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 3993,1998,Fall,Colorado,Douglas County,Class A,September,46.35099,-123.6886
 3994,2005,Fall,Colorado,Douglas County,Class B,October,45.99935,-121.4821
 3995,2007,Winter,Florida,Wakulla County,Class B,January,47.28435,-122.8665
-3996,1986,Winter,Florida,Union County,Class B,November,47.32307,-61921560.0
+3996,1986,Winter,Florida,Union County,Class B,November,47.32307,-61.92156
 3997,1981,Winter,Florida,Taylor County,Class B,November,46.63153,-123.2349
 3998,1994,Summer,Florida,Suwannee County,Class B,July,47.2331,-123.9878
 3999,1990,Summer,Florida,Sumter County,Class B,June,47.1787,-122.2484
@@ -4160,10 +4158,10 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 4159,2004,Spring,Florida,Marion County,Class A,June,45.0255,-89.02036
 4160,2004,Fall,Florida,Marion County,Class A,September,42.51519,-87.52243
 4161,2006,Summer,Florida,Marion County,Class A,July,43.13145,-90.2787
-4162,2007,Winter,Florida,Marion County,Class B,Unknown,45.75095,-446665.2
+4162,2007,Winter,Florida,Marion County,Class B,Unknown,45.75095,-44.66652
 4163,2008,Spring,Florida,Marion County,Class A,Unknown,44.4308,-89.7715
 4164,2011,Fall,Florida,Marion County,Class B,September,43.89418,-87.94178
-4165,2011,Fall,Florida,Marion County,Class B,November,44.2045,-442106.6
+4165,2011,Fall,Florida,Marion County,Class B,November,44.2045,-442.1066
 4166,2012,Winter,Florida,Marion County,Class A,February,42.86631,-87.84023
 4167,2012,Fall,Florida,Marion County,Class A,November,42.95915,-89.6816
 4168,2013,Fall,Florida,Marion County,Class A,October,45.941,-89.21035
@@ -4181,7 +4179,7 @@ Index,Year,Season,State,Country,Class,Month,Latitude,Longitude
 4180,2010,Winter,Florida,Okaloosa County,Class A,December,45.90015,-90.43416
 4181,2013,Spring,Florida,Okaloosa County,Class B,March,46.08392,-89.91314
 4182,2019,Summer,Florida,Okaloosa County,Class A,August,39.06881,-79.32608
-4183,2020,Winter,Florida,Okaloosa County,Class A,December,38.0,-81.0
+4183,2020,Winter,Florida,Okaloosa County,Class A,December,38,-81
 4184,2021,Winter,Florida,Okaloosa County,Class B,January,38.38096,-82.52633
 4185,2004,Winter,Florida,Okeechobee County,Class A,January,37.46292,-81.60155
 4186,2009,Summer,Florida,Okeechobee County,Class B,May,38.27832,-80.51534
