@@ -16,13 +16,13 @@ def date():
     
 def get_next_index():
     try:
-        conn = pymssql.connect(server='---',
-        user='---',
-        password='---',
-        database='---')
+        conn = pymssql.connect(server='bferver.database.windows.net',
+        user='bigfoot',
+        password='Admin123?',
+        database='SQLBF')
         cursor = conn.cursor()
 
-        query = "SELECT MAX(bf_index) FROM csv_SQL"
+        query = "SELECT MAX(bf_index) FROM csv_bigfoot"
         cursor.execute(query)
         result = cursor.fetchone()
         next_index = 1 if result[0] is None else result[0] + 1
@@ -38,9 +38,9 @@ def get_next_index():
 def add_data_to_db(data):
     try:
         conn = pymssql.connect(server='---',
-        user='---',
-        password='---',
-        database='---')
+        user='----',
+        password='----',
+        database='----')
         cursor = conn.cursor()
 
         query = "INSERT INTO csv_bigfoot (bf_index, bf_year, bf_season, bf_state, bf_country, bf_class, bf_month, bf_latitude, bf_longitude) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
@@ -84,6 +84,39 @@ def main():
 
     add_data_to_db(new_data)
 
-if __name__ == "__main__":
-    main()
 
+def show():
+    try:
+        conn = pymssql.connect(server='----',
+        user='---',
+        password='---',
+        database='---')
+        cursor = conn.cursor()
+
+        query = "SELECT * FROM csv_bigfoot"
+        cursor.execute(query)
+        result = cursor.fetchall()
+
+        for row in result:
+            print(row)
+
+        cursor.close()
+        conn.close()
+
+    except Exception as e:
+        print("Error connecting to the database: ", e)
+
+def menu():
+    while True:
+        print("1. Add new data")
+        print("2. Show data")
+        print("3. Exit")
+        option = input("Choose an option: ")
+        if option == "1":
+            main()
+        elif option == "2":
+            show()
+        elif option == "3":
+            break
+        else:
+            print("Invalid option, please try again.")
