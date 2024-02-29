@@ -16,10 +16,10 @@ def date():
     
 def get_next_index():
     try:
-        conn = pymssql.connect(server='bferver.database.windows.net',
-        user='bigfoot',
-        password='Admin123?',
-        database='SQLBF')
+        conn = pymssql.connect(server='----',
+        user='----',
+        password='---',
+        database='---')
         cursor = conn.cursor()
 
         query = "SELECT MAX(bf_index) FROM csv_bigfoot"
